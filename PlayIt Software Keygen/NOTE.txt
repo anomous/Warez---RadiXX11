@@ -1,0 +1,4 @@
+NOTE: The result EXE file has been merged and packed alongside
+      ServiceStack.Text.dll in one single EXEcutable, using
+      ConfuserEx (https://github.com/yck1509/ConfuserEx). The
+      project file for ConfuserEx is called LicGen.crproj.

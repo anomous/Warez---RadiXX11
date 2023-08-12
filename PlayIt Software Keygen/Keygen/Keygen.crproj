@@ -1,0 +1,6 @@
+<project outputDir=".\bin\Release\Merged" baseDir="." xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" inherit="false" />
+  <packer id="compressor" />
+  <module path="bin\Release\Keygen.exe" />
+  <module path="bin\Release\ServiceStack.Text.dll" />
+</project>
