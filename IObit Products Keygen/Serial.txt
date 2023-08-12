@@ -1,0 +1,9 @@
+IOBit Unistaller v7.x Key
+ 
+00517-2632F-20A49-E1EB7
+ 
+ 
+FW block: iunins.iobit.com
+ 
+hosts:
+0.0.0.0 iunins.iobit.com
