@@ -1,0 +1,39 @@
+.text:00A19D4E 8D 55 EF                                lea     edx, [ebp-11h]
+.text:00A19D51 B9 08 00 00 00                          mov     ecx, 8
+.text:00A19D56 8B 45 F8                                mov     eax, [ebp-8]
+.text:00A19D59 E8 DE F6 FF FF                          call    sub_A1943C
+.text:00A19D5E BE D0 46 AF 01                          mov     esi, offset DATA (ARRAY OF 4 DWORDS)
+.text:00A19D63 8D 7D D8                                lea     edi, [ebp-28h]
+.text:00A19D66 A5                                      movsd
+.text:00A19D67 A5                                      movsd
+.text:00A19D68 A5                                      movsd
+.text:00A19D69 A5                                      movsd
+
+8D 55 ?? B9 08 00 00 00 8B 45 ?? E8 ?? ?? ?? ?? BE ?? ?? ?? ?? 8D 7D ?? A5 A5 A5 A5
+
+===============================================================================
+
+.text:00D6FAB8 66 3B 7D C4                             cmp     di, [ebp-3Ch]
+.text:00D6FABC 75 32                                   jnz     short loc_D6FAF0
+.text:00D6FABE 8D 45 A4                                lea     eax, [ebp-5Ch]
+.text:00D6FAC1 0F BF D6                                movsx   edx, si
+.text:00D6FAC4 B9 25 00 00 00                          mov     ecx, 25h
+.text:00D6FAC9 2B CA                                   sub     ecx, edx
+.text:00D6FACB 8B 55 F8                                mov     edx, [ebp-8]  ; <--- KEY (UNICODE)
+.text:00D6FACE 0F B7 54 4A FE                          movzx   edx, word ptr [edx+ecx*2-2]
+.text:00D6FAD3 E8 B8 D7 69 FF                          call    loc_40D290
+
+66 3B 7D ?? 75 ?? 8D 45 ?? 0F BF D6 B9 25 00 00 00 2B CA 8B 55 ?? 0F B7 54 4A FE E8
+
+.text:00A198F8 66 8B 45 EA                             mov     ax, [ebp-16h]
+.text:00A198FC 66 3B 45 EC                             cmp     ax, [ebp-14h]
+.text:00A19900 75 33                                   jnz     short loc_A19935
+.text:00A19902 8D 45 88                                lea     eax, [ebp-78h]
+.text:00A19905 0F BF 55 EE                             movsx   edx, word ptr [ebp-12h]
+.text:00A19909 B9 25 00 00 00                          mov     ecx, 25h
+.text:00A1990E 2B CA                                   sub     ecx, edx
+.text:00A19910 8B 55 E4                                mov     edx, [ebp-1Ch]  ; <--- KEY (UNICODE)
+.text:00A19913 66 8B 54 4A FE                          mov     dx, [edx+ecx*2-2]
+.text:00A19918 E8 F3 F9 9E FF                          call    sub_409310
+
+66 8B 45 ?? 66 3B 45 ?? 75 ?? 8D 45 ?? 0F BF 55 ?? B9 25 00 00 00 2B CA 8B 55 ?? 66 8B 54 4A FE E8
