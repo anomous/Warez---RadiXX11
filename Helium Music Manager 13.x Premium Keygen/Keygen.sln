@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 5.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keygen", "Keygen\Keygen.csproj", "{DF0BEAE3-D311-481A-B6CD-2183EB39A223}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF0BEAE3-D311-481A-B6CD-2183EB39A223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF0BEAE3-D311-481A-B6CD-2183EB39A223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF0BEAE3-D311-481A-B6CD-2183EB39A223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF0BEAE3-D311-481A-B6CD-2183EB39A223}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

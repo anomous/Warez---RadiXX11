@@ -1,0 +1,6 @@
+<project outputDir=".\bin\Release\Merged" baseDir="." xmlns="http://confuser.codeplex.com">
+  <rule pattern="true" inherit="false" />
+  <packer id="compressor" />
+  <module path="bin\Release\LicGen.exe" />
+  <module path="bin\Release\Newtonsoft.Json.dll" />
+</project>
